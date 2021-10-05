@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.cool-timeline.white-timeline #story-1009 .icon-dot-full,
+.cool-timeline.white-timeline #story-1009 .timeline-content .content-title,
+.cool-timeline.white-timeline.compact
+  .timeline-post.icons_yes#story-1009
+  .timeline-icon,
+.cool-timeline.white-timeline #story-1009.timeline-post .timeline-icon {
+  background: #94006c;
+}
+
+.cool-timeline.white-timeline #story-1009 .timeline-meta .meta-details,
+.cool-timeline.white-timeline #story-1009.timeline-content h2.content-title-2 a,
+.cool-timeline.white-timeline #story-1009.timeline-content h2.content-title-2 {
+  color: #94006c;
+}
+
+.cool-timeline.white-timeline
+  #story-1009.even
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1009.even .timeline-content:before {
+  border-right-color: #94006c;
+}
+.cool-timeline.white-timeline
+  #story-1009.odd
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1009.odd .timeline-content:before {
+  border-left-color: #94006c;
+}
+
+@media (max-width: 860px) {
+  .cool-timeline.white-timeline
+    #story-1009.odd
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline
+    #story-1009.even
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline #story-1009.odd .timeline-content:before,
+  .cool-timeline.white-timeline #story-1009.even .timeline-content:before {
+    border-left-color: transparent;
+    border-right-color: #94006c;
+  }
+}
+
+.cool-timeline.white-timeline #story-1010 .icon-dot-full,
+.cool-timeline.white-timeline #story-1010 .timeline-content .content-title,
+.cool-timeline.white-timeline.compact
+  .timeline-post.icons_yes#story-1010
+  .timeline-icon,
+.cool-timeline.white-timeline #story-1010.timeline-post .timeline-icon {
+  background: #9ada22;
+}
+
+.cool-timeline.white-timeline #story-1010 .timeline-meta .meta-details,
+.cool-timeline.white-timeline #story-1010.timeline-content h2.content-title-2 a,
+.cool-timeline.white-timeline #story-1010.timeline-content h2.content-title-2 {
+  color: #9ada22;
+}
+
+.cool-timeline.white-timeline
+  #story-1010.even
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1010.even .timeline-content:before {
+  border-right-color: #9ada22;
+}
+.cool-timeline.white-timeline
+  #story-1010.odd
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1010.odd .timeline-content:before {
+  border-left-color: #9ada22;
+}
+
+@media (max-width: 860px) {
+  .cool-timeline.white-timeline
+    #story-1010.odd
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline
+    #story-1010.even
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline #story-1010.odd .timeline-content:before,
+  .cool-timeline.white-timeline #story-1010.even .timeline-content:before {
+    border-left-color: transparent;
+    border-right-color: #9ada22;
+  }
+}
+</style
+  > <div
+  class="end-timeline clearfix"
+  > </div
+  > </div
+  > </div
+  > </div
+  > <!--
+  end
+  ==================================================
+  --
+  > <style
+  type="text/css"
+  > .cool-timeline.white-timeline
+  #story-1009
+  .icon-dot-full,
+.cool-timeline.white-timeline #story-1009 .timeline-content .content-title,
+.cool-timeline.white-timeline.compact
+  .timeline-post.icons_yes#story-1009
+  .timeline-icon,
+.cool-timeline.white-timeline #story-1009.timeline-post .timeline-icon {
+  background: #94006c;
+}
+
+.cool-timeline.white-timeline #story-1009 .timeline-meta .meta-details,
+.cool-timeline.white-timeline #story-1009.timeline-content h2.content-title-2 a,
+.cool-timeline.white-timeline #story-1009.timeline-content h2.content-title-2 {
+  color: #94006c;
+}
+
+.cool-timeline.white-timeline
+  #story-1009.even
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1009.even .timeline-content:before {
+  border-right-color: #94006c;
+}
+.cool-timeline.white-timeline
+  #story-1009.odd
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1009.odd .timeline-content:before {
+  border-left-color: #94006c;
+}
+
+@media (max-width: 860px) {
+  .cool-timeline.white-timeline
+    #story-1009.odd
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline
+    #story-1009.even
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline #story-1009.odd .timeline-content:before,
+  .cool-timeline.white-timeline #story-1009.even .timeline-content:before {
+    border-left-color: transparent;
+    border-right-color: #94006c;
+  }
+}
+
+.cool-timeline.white-timeline #story-1010 .icon-dot-full,
+.cool-timeline.white-timeline #story-1010 .timeline-content .content-title,
+.cool-timeline.white-timeline.compact
+  .timeline-post.icons_yes#story-1010
+  .timeline-icon,
+.cool-timeline.white-timeline #story-1010.timeline-post .timeline-icon {
+  background: #9ada22;
+}
+
+.cool-timeline.white-timeline #story-1010 .timeline-meta .meta-details,
+.cool-timeline.white-timeline #story-1010.timeline-content h2.content-title-2 a,
+.cool-timeline.white-timeline #story-1010.timeline-content h2.content-title-2 {
+  color: #9ada22;
+}
+
+.cool-timeline.white-timeline
+  #story-1010.even
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1010.even .timeline-content:before {
+  border-right-color: #9ada22;
+}
+.cool-timeline.white-timeline
+  #story-1010.odd
+  .timeline-content
+  .content-title:before,
+.cool-timeline.white-timeline #story-1010.odd .timeline-content:before {
+  border-left-color: #9ada22;
+}
+
+@media (max-width: 860px) {
+  .cool-timeline.white-timeline
+    #story-1010.odd
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline
+    #story-1010.even
+    .timeline-content
+    .content-title:before,
+  .cool-timeline.white-timeline #story-1010.odd .timeline-content:before,
+  .cool-timeline.white-timeline #story-1010.even .timeline-content:before {
+    border-left-color: transparent;
+    border-right-color: #9ada22;
+  }
+}
+
+
