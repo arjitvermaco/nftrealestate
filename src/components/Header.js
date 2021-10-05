@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const navigation = [
-  { name: "About", href: "#" },
-  { name: "Mint", href: "#" },
-  { name: "RoadMap", href: "#" },
-  { name: "Team", href: "#" },
-  { name: "FAQ", href: "#" },
+  { name: "About", to: "about" },
+  { name: "Mint", to: "mint" },
+  { name: "RoadMap", to: "roadmap" },
+  { name: "Team", to: "team" },
+  { name: "FAQ", to: "faq" },
 ];
 export default function Header() {
   return (
@@ -23,13 +24,15 @@ export default function Header() {
               </a>
               <div className="hidden ml-10 space-x-8 lg:block">
                 {navigation.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
+                  <Link
+                    to={link.to}
+                    spy={true}
+                    offset={-0}
+                    smooth={true}
                     className="text-base font-medium text-white hover:text-indigo-50"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>

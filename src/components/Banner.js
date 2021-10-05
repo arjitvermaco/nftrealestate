@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12" id="banner">
       <div className="flex flex-col-reverse md:flex-row text-white">
         <div className="flex-auto text-left">
           <h1 className="text-5xl font-bold leading-relaxed	">

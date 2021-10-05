@@ -2,10 +2,11 @@ import React from "react";
 
 export default function MInt() {
   return (
-    <div className="">
+    <div className="" id="mint">
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
       <img src="/images/mint_text.png" />
 
-      <div className="max-w mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <div className="flex flex-col md:flex-row space-y-5 justify-around items-center">
           <div>
             <img src="/images/For-Sale-Image.png" />
@@ -31,8 +32,8 @@ export default function MInt() {
           </div>
         </div>
 
-        <div className="text-white flex gap-x-6 font-thin justify-around items-baseline flex-grow">
-          <div className="flex-1 flex flex-col ">
+        <div className="text-white flex flex-col lg:flex-row gap-x-6 font-thin justify-around items-baseline flex-grow">
+          <div className="flex-1  ">
             <img src="/images/lock.png" className="w-12 mx-auto" />
             <p>
               Our Smart contract implements a locking mechanism that prevents
@@ -40,9 +41,9 @@ export default function MInt() {
             </p>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 mb-10 align-middle text-center">
             <img src="/images/9942.png" className="w-32 mx-auto" />
-            <p className="-mb-2">9,942 provably-rare property NFTs</p>
+            <p className="text-center">9,942 provably-rare property NFTs</p>
           </div>
 
           <div className="flex-1">

@@ -1088,12 +1088,12 @@ a.page-numbers:hover {
   line-height: 40px;
   position: absolute;
   text-align: center;
-  margin: 12px 0 0 -20px;
+  margin: 0 0 0 -20px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
   color: #171717;
-  font-size: 18px;
+  font-size: 12px;
   height: 40px;
   width: 40px;
   left: 50%;
@@ -1258,7 +1258,7 @@ a.page-numbers:hover {
 }
 .cool-timeline .timeline-post .timeline-content .ctl_info {
   line-height: 1.42;
-  display: inline-block;
+  /* display: inline-block; */
   width: 100%;
 }
 .center-block,

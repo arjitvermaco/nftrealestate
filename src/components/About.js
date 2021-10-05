@@ -2,10 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="bg-grey-bg">
+    <div className="bg-grey-bg" id='about'>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
       <img src="/images/about_text.png" />
 
-      <div className="max-w mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <div className="flex flex-col md:flex-row text-white">
           <div>
             <img src="/images/About_image.png" />
