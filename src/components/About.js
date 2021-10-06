@@ -12,7 +12,7 @@ export default function About() {
             <img src="/images/About_image.png" />
           </div>
           <div>
-            <h1 className="text-5xl font-bold leading-relaxed text-left	">
+            <h1 className="text-2xl md:text-5xl font-bold leading-relaxed text-left	">
               Become an NFT Realtor or Property Owner!
             </h1>
 

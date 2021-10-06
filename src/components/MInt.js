@@ -26,21 +26,22 @@ export default function MInt() {
               <span className="px-5 ml-3 py-1 border border-white mt-4">+</span>
             </div>
 
-           <div className="grid grid-cols-3 mt-8">
-             <div>Progress</div>
-             <div className="relative pt-1 ">
-              <div className="overflow-hidden h-2 mb-4 text-xs flex  bg-white">
-                <div
-                  style={{ width: "30%" }}
-                  className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple"
-                ></div>
+            <div className="grid grid-cols-3 mt-8">
+              <div>Progress</div>
+              <div className="relative pt-1 ">
+                <div className="overflow-hidden h-2 mb-4 text-xs flex  bg-white">
+                  <div
+                    style={{ width: "30%" }}
+                    className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple"
+                  ></div>
+                </div>
               </div>
+              <div>40%</div>
             </div>
-            <div>40%</div>
-           </div>
 
-          <button className="bg-purple border-2 mt-8 px-6 py-3 border-white">Connect Wallet</button>
-
+            <button className="bg-purple border-2 mt-8 px-6 py-3 border-white">
+              Connect Wallet
+            </button>
           </div>
 
           <div>
@@ -48,7 +49,7 @@ export default function MInt() {
           </div>
         </div>
 
-        <div className="text-white flex flex-col lg:flex-row gap-x-6 font-thin justify-around items-baseline flex-grow">
+        <div className="text-white mt-10 flex flex-col lg:flex-row gap-x-6 font-thin justify-around  flex-grow">
           <div className="flex-1  ">
             <img src="/images/lock.png" className="w-12 mx-auto" />
             <p>
@@ -56,14 +57,13 @@ export default function MInt() {
               tampering and will be activated at the time the community chooses.
             </p>
           </div>
-
-          <div className="flex-1 mb-10 align-middle text-center">
-            <img src="/images/9942.png" className="w-32 mx-auto" />
-            <p className="text-center">9,942 provably-rare property NFTs</p>
+          <div className="flex-1">
+            <img src="/images/9942.png" className="w-32 md:w-24 mx-auto" />
+            <p>9,942 provably-rare property NFTs</p>
           </div>
 
           <div className="flex-1">
-            <h3 className="text-3xl -mt-4 font-bold">0.075 ETH</h3>
+            <h3 className="text-3xl  font-bold">0.075 ETH</h3>
             <p>
               Fair Launch and distribution – all properties have the same cost
               of 0.075 ETH

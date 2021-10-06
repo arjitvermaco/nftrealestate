@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex items-center">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img className="h-10 w-auto" src="images/logo.png" alt="" />
+                <img className="h-14 w-auto" src="images/logo.png" alt="" />
               </a>
               <div className="hidden ml-10 space-x-8 lg:block">
                 {navigation.map((link) => (
@@ -36,19 +36,19 @@ export default function Header() {
                 ))}
               </div>
             </div>
-            <div className="ml-10 space-x-4 flex items-center">
-              <a href="" className=" w-12">
+            <div className="ml-10  space-x-4 flex items-center">
+              <a href="" className="hidden md:flex w-12">
                 <img src="/images/twitter.png" />
               </a>
-              <a href="" className=" w-12">
+              <a href="" className="hidden md:flex w-12">
                 <img src="/images/discord.png" />
               </a>
-              <a href="" className=" w-12">
+              <a href="" className="hidden md:flex w-12">
                 <img src="/images/opensea.png" />
               </a>
               <a
                 href="#"
-                className=" bg-gradient-to-r from-purple to-l-purple hover:from-l-purple hover:to-purple md:py-4 md:px-6 border border-transparent rounded-md text-xl font-medium text-white hover:bg-opacity-75"
+                className=" bg-gradient-to-r from-purple to-l-purple hover:from-l-purple hover:to-purple py-2 px-2 md:py-4 md:px-6 border border-transparent rounded-md text-xl font-medium text-white hover:bg-opacity-75"
               >
                 Connect Wallet{" "}
               </a>

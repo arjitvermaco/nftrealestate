@@ -5,7 +5,7 @@ export default function Banner() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12" id="banner">
       <div className="flex flex-col-reverse md:flex-row text-white">
         <div className="flex-auto text-left">
-          <h1 className="text-5xl font-bold leading-relaxed	">
+          <h1 className="text-2xl md:text-5xl font-bold leading-relaxed	">
             The Real Estate NFT project you've been waiting for...
           </h1>
           <p className="mt-4 font-light">
@@ -26,7 +26,7 @@ export default function Banner() {
           <p className="mt-4 font-light">
             The presale will start soon. The mint price will be 0.075ETH.
           </p>
-          <div className="mt-6 flex justify-between">
+          <div className="mt-6 flex flex-col items-center md:flex-row justify-between">
             <a
               href="#"
               className=" bg-gradient-to-b from-purple to-l-purple hover:from-l-purple hover:to-purple mt-4  py-2 px-3 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75"
