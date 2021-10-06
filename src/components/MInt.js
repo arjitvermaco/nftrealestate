@@ -3,9 +3,8 @@ import React from "react";
 export default function MInt() {
   return (
     <div className="" id="mint">
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-      <img src="/images/mint_text.png" />
+        <img src="/images/mint_text.png" />
 
         <div className="flex flex-col md:flex-row space-y-5 justify-around items-center">
           <div>
@@ -13,18 +12,35 @@ export default function MInt() {
           </div>
 
           <div className="text-white">
-            <h2 className="text-3xl leading-loose font-bold">
-              Buy A NFT Property
-            </h2>
-            <h4 className="text-xl mb-10 leading-loose font-thin">
-              0.075 ETH / each
-            </h4>
-            <a
-              href="#"
-              className=" bg-gradient-to-r from-purple to-l-purple hover:from-l-purple hover:to-purple py-4 px-6 border border-white rounded-md text-base font-thin  text-white hover:bg-opacity-75"
-            >
-              Coming Soon
-            </a>
+            <h3 className="bg-purple p-4 rounded-3xl border border-white">
+              Minted : 0/9942
+            </h3>
+            <h1 className="text-3xl my-6">Buy A NFT Property</h1>
+            <p>0.075 ETH/ each</p>
+            <p>Total Price:</p>
+            <div className="mt-4">
+              <span className="px-5 mr-3 py-1 border border-white mt-4">-</span>
+              <span className="px-8  py-1 border border-white bg-white text-black">
+                1
+              </span>
+              <span className="px-5 ml-3 py-1 border border-white mt-4">+</span>
+            </div>
+
+           <div className="grid grid-cols-3 mt-8">
+             <div>Progress</div>
+             <div className="relative pt-1 ">
+              <div className="overflow-hidden h-2 mb-4 text-xs flex  bg-white">
+                <div
+                  style={{ width: "30%" }}
+                  className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple"
+                ></div>
+              </div>
+            </div>
+            <div>40%</div>
+           </div>
+
+          <button className="bg-purple border-2 mt-8 px-6 py-3 border-white">Connect Wallet</button>
+
           </div>
 
           <div>
@@ -63,7 +79,7 @@ export default function MInt() {
           </div>
 
           <div className="flex-1">
-            <img src="/images/para.png"  className="w-12 mx-auto"/>
+            <img src="/images/para.png" className="w-12 mx-auto" />
             <p>
               50 Realtor NFT’s will be given by Airdrop. These holders receive
               1.5% of the royalties every month!
