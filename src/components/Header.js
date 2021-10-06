@@ -29,7 +29,7 @@ export default function Header() {
                     spy={true}
                     offset={-0}
                     smooth={true}
-                    className="text-base font-medium text-white hover:text-indigo-50"
+                    className="text-base cursor-pointer font-medium text-white hover:text-indigo-50 hover:cursor-pointer"
                   >
                     {link.name}
                   </Link>
@@ -57,13 +57,15 @@ export default function Header() {
           </div>
           <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
             {navigation.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-base font-medium text-white hover:text-indigo-50"
-              >
-                {link.name}
-              </a>
+              <Link
+              to={link.to}
+              spy={true}
+              offset={-0}
+              smooth={true}
+              className="text-base  cursor-pointer font-medium text-white hover:text-indigo-50"
+            >
+              {link.name}
+            </Link>
             ))}
           </div>
         </nav>
