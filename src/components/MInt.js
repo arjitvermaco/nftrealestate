@@ -3,7 +3,7 @@ import React from "react";
 export default function MInt() {
   return (
     <div className="" id="mint">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <img src="/images/mint_text.png" />
 
         <div className="flex flex-col md:flex-row space-y-5 justify-around items-center">

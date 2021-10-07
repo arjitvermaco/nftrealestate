@@ -8,10 +8,12 @@ import Header from './components/Header';
 import MInt from './components/MInt';
 import Roadmap from './components/Roadmap';
 import Team from './components/Team';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <div className="App bg-black">
+      <ScrollToTop smooth />
       <Header/>
       <Banner/>
       <About/>

@@ -1,11 +1,17 @@
 import React from "react";
+import Rotate from "react-reveal/Rotate";
+import Fade from 'react-reveal/Fade';
 
 export default function Banner() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12" id="banner">
-      <div className="flex flex-col-reverse md:flex-row text-white">
-        <div className="flex-auto text-left">
-          <h1 className="text-2xl md:text-5xl font-bold leading-relaxed	">
+    <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 pb-12" id="banner">
+      <div className="grid align-middle grid-cols-4 gap-8 lg:gap-10 text-white">
+        <div className="col-span-4 md:hidden p-8">
+          <img src="/images/V2_Properties_Image.png" />
+        </div>
+        <Fade bottom>
+        <div className="col-span-4 md:col-span-2 text-left lg:py-16 xl:pr-32 lg:pr-20 ">
+          <h1 className="text-2xl lg:text-6xl font-bold 	">
             The Real Estate NFT project you've been waiting for...
           </h1>
           <p className="mt-4 font-light">
@@ -42,8 +48,11 @@ export default function Banner() {
             </a>
           </div>
         </div>
-        <div>
-          <img src="/images/banner.png" />
+        </Fade>
+        <div className="col-span-2 hidden md:block">
+          <Rotate top left>
+            <img src="/images/banner.png" className="lg:w-full xl:w-4/5" />
+          </Rotate>
         </div>
       </div>
     </div>

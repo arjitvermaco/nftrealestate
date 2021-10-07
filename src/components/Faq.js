@@ -11,10 +11,12 @@ import "react-accessible-accordion/dist/fancy-example.css";
 const Faq = () => {
   return (
     <div id="faq">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <img src="/images/Faq.png" />
+       <img src="/images/Faq.png" className="md:px-20" />
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+     
+     
 
-        <Accordion className="text-white text-left">
+        <Accordion className="text-white text-left px-8 md:px-32">
           <AccordionItem className="border border-white p-4">
             <AccordionItemHeading>
               <AccordionItemButton className="">
